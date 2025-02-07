@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://dytc81mbt1gok"]
 
-[ext_resource type="Texture2D" uid="uid://3pyp7xolm0mv" path="res://assets/cenário/maps/quartel (com chão).png" id="1_4hxfb"]
-[ext_resource type="Texture2D" uid="uid://cn7scd2bkgaul" path="res://assets/cenário/maps/Muro.png" id="1_hb6q8"]
+[ext_resource type="Texture2D" uid="uid://dquit3uqvdm8f" path="res://assets/cenário/maps/quartel (com chão).png" id="1_4hxfb"]
+[ext_resource type="Texture2D" uid="uid://dymva1l52byti" path="res://assets/cenário/maps/Muro.png" id="1_hb6q8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0jwwo"]
 size = Vector2(390, 20)
