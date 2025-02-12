@@ -56,5 +56,6 @@ libraries = {
 }
 
 [node name="Collision" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(27, 25)
 shape = SubResource("RectangleShape2D_an6dd")

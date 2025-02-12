@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://bvuvbfonrrdkb"]
 
-[ext_resource type="Texture2D" uid="uid://dxpv3fa7ybvrh" path="res://assets/sprites/Personagem Feminina.png" id="1_40ft3"]
+[ext_resource type="Texture2D" uid="uid://ctq8s67h1svuf" path="res://assets/sprites/Personagem Feminina.png" id="1_40ft3"]
 
 [sub_resource type="Animation" id="Animation_ebo58"]
 resource_name = "correr_costas"
@@ -161,7 +161,7 @@ position = Vector2(16, 14)
 texture = ExtResource("1_40ft3")
 hframes = 8
 vframes = 5
-frame = 24
+frame = 32
 
 [node name="Animation" type="AnimationPlayer" parent="."]
 libraries = {
@@ -169,5 +169,6 @@ libraries = {
 }
 
 [node name="Collision" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(16, 26)
 shape = SubResource("RectangleShape2D_8t7p7")
